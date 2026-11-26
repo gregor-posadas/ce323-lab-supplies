@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CE 323 Lab Supplies</title>
+<meta name="description" content="Supply inventory, lab readiness checks and order lists for the CE 323 Environmental and Fluids Laboratory at Boise State.">
+<meta name="color-scheme" content="light dark">
+<link rel="preload" href="fonts/AtkinsonHyperlegibleNext-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/AtkinsonHyperlegibleNext-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230033a0'/%3E%3Cpath d='M12 5h8v2h-1v7l6 11a2 2 0 0 1-2 3H9a2 2 0 0 1-2-3l6-11V7h-1z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/styles.css?v=20261126094944">
+<script>try { var t = localStorage.getItem("ce323.theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="band" role="banner">
+  <div class="band__inner">
+    <a class="brand" href="#/">
+      <span class="brand__name">CE 323 Lab Supplies</span>
+      <span class="brand__sub">Environmental and Fluids Laboratory</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#/" data-nav="home">This week</a>
+      <a href="#/supplies" data-nav="supplies">Supplies</a>
+      <a href="#/labs" data-nav="labs">Labs</a>
+      <a href="#/schedule" data-nav="schedule">Schedule</a>
+      <a href="#/count" data-nav="count">Count</a>
+      <a href="#/orders" data-nav="orders">Orders</a>
+      <a href="#/equipment" data-nav="equipment">Equipment</a>
+      <a href="#/guide" data-nav="guide">Guide</a>
+    </nav>
+    <div class="band__tools">
+      <a class="band-btn" href="#/settings" style="display:inline-flex;align-items:center;text-decoration:none">Settings</a>
+      <button type="button" class="band-btn" id="theme-toggle">Dark mode</button>
+    </div>
+  </div>
+</header>
+<div id="busy" class="busy" hidden><span class="busy__bar"></span></div>
+<div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+<main id="main" tabindex="-1" aria-busy="true">
+  <div class="wrap"><div class="head"><p class="muted" role="status">Loading the lab inventory…</p><div class="skel skel--h1"></div><div class="skel skel--line"></div></div></div>
+</main>
+<footer class="foot"><p id="foot-status"></p></footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<dialog id="dlg" aria-labelledby="dlg-title"></dialog>
+<noscript><p class="wrap">This site needs JavaScript.</p></noscript>
+<script src="assets/config.js?v=20261126094944"></script>
+<script src="assets/logic.js?v=20261126094944"></script>
+<script src="assets/app.js?v=20261126094944"></script>
+</body>
+</html>
